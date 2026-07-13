@@ -1,0 +1,72 @@
+.gswa-life-member-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 30px 0;
+   
+}
+
+.gswa-life-member-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+     
+}
+
+.gswa-life-member-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.gswa-life-member-card h3 {
+    margin-top: 15px;
+    font-size: 24px;
+    
+    color: #003366;
+   
+}
+
+/*--adding--*/
+
+
+
+/*.gswa-life-member-portfolio{
+   
+    color: #003366;;
+    font-size: 1.1em;
+  
+}*/
+
+/* Target the specific life member block elements */
+.gswa-life-member{
+     
+  line-height: 1.5;       /* Tighter line box spacing */
+    margin-top: 4px;        /* Small top gap between lines */
+    margin-bottom: 4px;  /* Small bottom gap between lines */
+    font-weight:600;   /* sami bold 600, bold 700, normal 400*/
+}
+
+
+
+
+/* Optional: Make the ID stand out slightly more like your image */
+
+
+/*--End--Adding--*/
+
+@media (max-width: 992px) {
+    .gswa-life-member-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .gswa-life-member-grid {
+        grid-template-columns: 1fr;
+    }
+}
