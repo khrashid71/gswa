@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 function gswa_display_life_members() {
 
     ob_start();  
-    //gswa_log( 'Life member shortcode started.' ); //debug.log
+    gswa_log( 'Life member shortcode started.' ); //debug.log
 
 
 

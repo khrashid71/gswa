@@ -4,8 +4,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 
+
 /**
- * Write message to PHP error log
+ * Write message to PHP error log -helper.php
  */
 function gswa_log( $message ) {
 
@@ -15,4 +16,5 @@ function gswa_log( $message ) {
 
     error_log( '[GSWA] ' . $message );
 }
+
 
