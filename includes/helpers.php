@@ -15,6 +15,9 @@ function gswa_log( $message ) {
     }
 
     error_log( '[GSWA] ' . $message );
+
+    
 }
+
 
 

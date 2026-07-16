@@ -26,14 +26,21 @@ require_once plugin_dir_path( __FILE__ ) . 'includes/cpt-gswa-ec.php';
 // Load Custom Post Types for Life Member
 require_once plugin_dir_path( __FILE__ ) . 'includes/cpt-gswa-lm.php';
 
+// Load Custom Post Types for General Member
+
+require_once plugin_dir_path( __FILE__ ) . 'includes/cpt-gswa-gm.php';
+
 //Diplay
 
-// Load Front-end Display Functions
+// Load Front-end Display Advisors function
 require_once plugin_dir_path( __FILE__ ) . 'includes/display-gswa-advisors.php';
-// Load Front-end Display Functions
+// Load Front-end Display Executive Committee(ec)Function
 require_once plugin_dir_path( __FILE__ ) . 'includes/display-gswa-ec.php';
-// Load Front-end Display Functions
+// Load Front-end Display Life Members(lm) Function
 require_once plugin_dir_path( __FILE__ ) . 'includes/display-gswa-lm.php';
+
+// Load Front-end Display General Members(gm) Function
+require_once plugin_dir_path( __FILE__ ) . 'includes/display-gswa-gm.php';
 
 
 //Load loads the enqueue file

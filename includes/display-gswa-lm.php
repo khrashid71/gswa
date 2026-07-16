@@ -26,7 +26,7 @@ function gswa_display_life_members() {
 
     $life_members = new WP_Query( $args );
     //gswa_log( 'Found ' . $life_members->post_count . ' life_members.' ); // debug
-   
+     gswa_log( astra_get_blog_layout() );
 
     if ( $life_members->have_posts() ) {
 
