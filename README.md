@@ -45,10 +45,14 @@ gswa-manager/
 │   ├── cpt-gswa-advisor.php
 │   ├── display-gswa-advisors.php
 │   ├── cpt-life-member.php
+│   ├── cpt-gm-member.php
+│   └── display-gm-members.php
 │   └── display-life-members.php
 │
 ├── README.md
-└── gswa-manager.php
+└── gswa-manager.php  
+    
+
 
 
 
