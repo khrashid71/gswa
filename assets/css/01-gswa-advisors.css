@@ -21,6 +21,20 @@
     border-radius: 8px;
 }
 
+/*Edit advisor card*/
+
+/*.gswa-advisor-card  img {
+    width: 100%;
+   
+    aspect-ratio: 4 / 5;
+    object-fit: cover;      /* fills the box */
+    /*object-position: center;*/
+    /*display: block;
+    background: #fff;*/
+    /*border-radius: 8px;
+  
+}*/
+
 .gswa-advisor-card h3 {
     margin-top: 15px;
     font-size: 24px;
