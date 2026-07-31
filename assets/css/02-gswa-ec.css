@@ -32,13 +32,14 @@
 .gswa-ecdesignation{
     color:#555;
     font-size:16px;
-    font-weight:600;
+    font-weight:700;
     margin:8px 0 4px;
 }
 
 .gswa-ecportfolio{
-    color:#777;
+    color:#555;
     font-size:15px;
+    font-weight:500;
 }
 /*--End--Adding--*/
 
